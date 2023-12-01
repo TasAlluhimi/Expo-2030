@@ -5,7 +5,6 @@ function MyFooter() {
   return (
     <>
         
-
 <footer class="bg-white dark:bg-gray-900">
     <div class="w-full">
 

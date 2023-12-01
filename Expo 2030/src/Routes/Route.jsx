@@ -1,21 +1,21 @@
 import React from 'react'
 import { Routes, Route as R} from 'react-router-dom'
 import Home from '../Pages/Home'
-import NavBar from '../components/NavBar'
 import Error from '../Errors/Error'
-import MyFooter from '../components/MyFooter'
-
+import SignUp from '../Pages/SignUp'
+import SignIn from '../Pages/SignIn'
 
 function Route() {
   return (
     <>
-    <NavBar/>
-      {/* <Home></Home> */}
-    <MyFooter></MyFooter>
+        
     <Routes>
         <R path='/' element={<Home/>}></R>
-        <R path='/e' element={<Error/>}></R>
+        <R path='/*' element={<Error/>}></R>
+        <R path='/SignUp' element={<SignUp/>}></R>
+        <R path='/SignIn' element={<SignIn/>}></R>
     </Routes>
+
     </>
   )
 }

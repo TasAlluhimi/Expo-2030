@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 function Info() {
 
-    const location = useLocation();
+  const location = useLocation();
   const specificDivRef = useRef(null);
 
   const [showText, setShowText] = useState(false);
