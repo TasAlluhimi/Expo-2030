@@ -2,6 +2,8 @@ import p from '../assets/p.jpeg'
 import makkah from '../assets/makkah.jpeg'
 import lib from '../assets/liib.jpg'
 import w from '../assets/wo.jpg'
+import d from '../assets/doctor.jpeg'
+import v from '../assets/SAUDI-2030.webp'
 
 
 const Achivments = [
@@ -77,41 +79,41 @@ const Achivments = [
         info5: `Military Roles: Saudi women joined the armed forces, with the appointment of the first female military achiever, contributing to national defense and security.`,
     },
 
-    // {
-    //     id: '5',
+    {
+        id: '5',
 
-    //     image: '',
+        image: `${d}`,
 
-    //     title: `Health Achievements of the Kingdom: Innovations, Preparedness, and Global Recognition`,
+        title: `Health Achievements of the Kingdom: Innovations, Preparedness, and Global Recognition`,
         
-    //     info1: `Formation of the National Health Insurance Authority: The establishment of the National Health Insurance Authority demonstrates a commitment to ensuring comprehensive and accessible healthcare coverage for the population.`,
+        info1: `Formation of the National Health Insurance Authority: The establishment of the National Health Insurance Authority demonstrates a commitment to ensuring comprehensive and accessible healthcare coverage for the population.`,
 
-    //     info2: `Eradication of Trachoma Epidemic: A significant milestone was achieved with the successful elimination of the trachoma epidemic, showcasing the Kingdom's dedication to public health and disease control.`,
+        info2: `Eradication of Trachoma Epidemic: A significant milestone was achieved with the successful elimination of the trachoma epidemic, showcasing the Kingdom's dedication to public health and disease control.`,
 
-    //     info3: `Global Recognition during the COVID-19 Pandemic: Despite the global challenges posed by the COVID-19 pandemic, the Kingdom earned international acclaim by securing the second position globally in managing the spread of the virus, highlighting effective healthcare strategies.`,
+        info3: `Global Recognition during the COVID-19 Pandemic: Despite the global challenges posed by the COVID-19 pandemic, the Kingdom earned international acclaim by securing the second position globally in managing the spread of the virus, highlighting effective healthcare strategies.`,
         
-    //     info4: `Inauguration of Virtual Health Hospital: A groundbreaking initiative, the Virtual Health Hospital, with a capacity to serve 500,000 patients annually, represents a forward-looking approach to healthcare delivery, integrating technology for widespread accessibility and convenience.`,
+        info4: `Inauguration of Virtual Health Hospital: A groundbreaking initiative, the Virtual Health Hospital, with a capacity to serve 500,000 patients annually, represents a forward-looking approach to healthcare delivery, integrating technology for widespread accessibility and convenience.`,
 
-    //     info5: `Enhanced Efficiency and Digitization in Healthcare Services: The Kingdom made substantial strides in improving the efficiency and digitization of healthcare services, leveraging technology to provide accessible and streamlined medical care.`,
-    // },
+        info5: `Enhanced Efficiency and Digitization in Healthcare Services: The Kingdom made substantial strides in improving the efficiency and digitization of healthcare services, leveraging technology to provide accessible and streamlined medical care.`,
+    },
 
-     // {
-    //     id: '3',
+     {
+        id: '6',
 
-    //     image: '',
+        image: `${v}`,
 
-    //     title: ``,
+        title: `Saudi Arabia's Vision 2030: A Transformative Journey towards Diversification and Innovation`,
         
-    //     info1: ``,
+        info1: `Launched in 2016, Saudi Arabia's Vision 2030 is a comprehensive blueprint aimed at diversifying the nation's economy, reducing its dependence on oil, and fostering a vibrant and sustainable society. As of the current date in 2023, several key achievements and milestones have marked the progress of this ambitious vision:`,
 
-    //     info2: ``,
+        info2: `Vision Realization Programs (VRPs): Numerous Vision Realization Programs have been launched, each focusing on specific sectors such as entertainment, sports, healthcare, and industrial development. These programs aim to achieve the strategic objectives outlined in Vision 2030.`,
 
-    //     info3: ``,
+        info3: `Sustainable Development: Vision 2030 prioritizes environmental sustainability, with initiatives focused on renewable energy, including the ambitious NEOM project, which aims to be a model for sustainable living and green technologies.`,
         
-    //     info4: ``,
+        info4: `Social Transformation: The vision places a strong emphasis on social development, including the empowerment of women through economic participation and driving cultural and entertainment reforms. The relaxation of social restrictions and the introduction of cinemas and cultural events underscore this societal transformation.`,
 
-    //     info5: ``,
-    // },
+        info5: `Economic Diversification: Vision 2030 has successfully driven economic diversification efforts, with a notable expansion in non-oil sectors such as tourism, entertainment, and technology. Initiatives like NEOM and the Red Sea Project are transforming the country into a global investment and tourism destination.`,
+    },
 ]
 
 export default Achivments;
