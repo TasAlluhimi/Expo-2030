@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
+import r from '../assets/r.jpg'
+
 
 
 function SignUp() {
@@ -74,16 +76,10 @@ function SignUp() {
 
   return (
     <>
-        <div className='max-sm:grid-cols-1 max-md:grid-cols-1 md:grid-cols-1 h-screen w-full grid lg:grid-cols-2'>
-            <div className='bg-no-repeat bg-cover max-sm:h-[50vh] md:h-[50vh] lg:h-full' style={{backgroundImage: `url('https://e0.pxfuel.com/wallpapers/1011/158/desktop-wallpaper-kingdom-tower-saudi-arabia-towers-riyadh.jpg')`}}>
+            <div className='bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center p-12' style={{backgroundImage: `url(${r})`}}>
 
-            </div>
-
-            <div>
-
-            {/* sign up  */}
-            <div className='flex flex-col lg:justify-center items-center h-full'>
-            <div className='bg-white flex flex-col p-10 w-96'>
+            <div className='flex flex-col justify-center items-center'>
+            <div className='bg-[rgba(255,255,255,0.46)] rounded-lg flex flex-col p-10 w-96'>
             <p className='text-lg text-center'>Sign Up Now</p>
 
             <input
@@ -132,7 +128,7 @@ function SignUp() {
         name='city'
         value={inputs.city}
         onChange={change}
-        disabled={!inputs.country} // Disable city dropdown until a country is selected
+        disabled={!inputs.country}
       >
         <option value=''>Select City</option>
         {inputs.country &&
@@ -166,7 +162,6 @@ function SignUp() {
         <option value=''>Select Marital Status</option>
         <option value='single'>Single</option>
         <option value='married'>Married</option>
-        {/* Add other marital status options as needed */}
       </select>
 
       <select
@@ -175,16 +170,18 @@ function SignUp() {
         value={inputs.ageRange}
         onChange={change}
       >
+
         <option value=''>Select Age Range</option>
         <option value='18-30'>18-30</option>
         <option value='31-50'>31-50</option>
         <option value='50+'>50+</option>
       </select>
 
-          </div>
+      <p className='mt-5 text-center'>You don't have an account? <Link className='font-bold' to='/SignIn'>Sign In</Link></p>
 
-          {validationError && (
-            <p className='text-red-500'>{validationError}</p>
+
+      {validationError && (
+            <p className='text-red-500 font-bold text-center'>{validationError}</p>
           )}
 
             <button
@@ -194,9 +191,12 @@ function SignUp() {
             Sign Up
             </button>
 
+          </div> 
             </div>
+            </div>
+            <div>
         </div>
-            </div>
+            
     </>
   )
 }

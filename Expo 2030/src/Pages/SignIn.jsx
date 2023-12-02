@@ -23,7 +23,7 @@ function SignIn() {
 
           if (name === currentUser.Name && password === currentUser.password) {
             localStorage.setItem('isLoggedIn', true);
-            navigate('/Home');
+            navigate('/');
 
         } else {
             setValidationError('Invalid name or password. Please try again.');
@@ -63,9 +63,9 @@ function SignIn() {
                 onChange={(event)=>{setPassword(event.target.value)}}
                 />
 
-                <p className='mt-5'>You don't have an account? <Link className='font-bold' to='/SignUp'> make one</Link></p>
+                <p className='mt-5 text-center'>You don't have an account? <Link className='font-bold' to='/SignUp'>Sign Up</Link></p>
                 {validationError && (
-                <p className='text-red-500'>{validationError}</p>
+                <p className='text-red-500 text-center font-bold'>{validationError}</p>
                 )}
 
                 <button
