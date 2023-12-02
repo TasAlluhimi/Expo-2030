@@ -177,7 +177,7 @@ function SignUp() {
         <option value='50+'>50+</option>
       </select>
 
-      <p className='mt-5 text-center'>You don't have an account? <Link className='font-bold' to='/SignIn'>Sign In</Link></p>
+      <p className='mt-5 text-center'>You Already have an account? <Link className='font-bold' to='/SignIn'>Sign In</Link></p>
 
 
       {validationError && (

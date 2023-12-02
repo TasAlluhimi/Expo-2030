@@ -94,7 +94,7 @@ function NavBar() {
                   className="text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-transform transform-gpu hover:scale-105 dark:bg-blue-600 hover:bg-blue-800 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   type="button" onClick={()=>{{navigate('/SignUp')}}}
                 >
-                  Log In
+                  Sign Up
                 </button>
             )}
 
