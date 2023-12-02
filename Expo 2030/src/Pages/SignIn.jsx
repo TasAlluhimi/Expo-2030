@@ -23,7 +23,7 @@ function SignIn() {
 
           if (name === currentUser.Name && password === currentUser.password) {
             localStorage.setItem('isLoggedIn', true);
-            navigate('/');
+            navigate('/Achievments');
 
         } else {
             setValidationError('Invalid name or password. Please try again.');
