@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import a from '../assets/about.jpg';
 
 function AboutRiyadh() {
     const navigate = useNavigate()
@@ -48,7 +49,7 @@ function AboutRiyadh() {
 
             <div class="">
 
-                <img class="w-full lg:h-screen lg:m-0  max-sm:mt-10 md:mt-10 xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://riyadhexpo2030.sa/wp-content/uploads/2023/11/2023-11-RIYADH-EXPO-NICOLAS-CHAVANCE-GROUPE-FR5B_6728-Avec-accentuation-BruitLQ.jpg" alt="" />
+                <img class="w-full lg:h-screen lg:m-0 max-sm:mt-10 md:mt-10 xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src={a} alt="" />
             </div>
 
         </div>
