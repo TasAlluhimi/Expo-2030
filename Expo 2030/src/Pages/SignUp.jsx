@@ -76,7 +76,9 @@ function SignUp() {
 
   return (
     <>
-            <div className='bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center p-12' style={{backgroundImage: `url(${r})`}}>
+            <div className='bg-no-repeat bg-cover bg-center flex 
+            flex-col justify-center items-center p-12 h-full' 
+            style={{backgroundImage: `url(${r})`}}>
 
             <div className='flex flex-col justify-center items-center'>
             <div className='bg-[rgba(255,255,255,0.46)] rounded-lg flex flex-col p-10 w-96'>

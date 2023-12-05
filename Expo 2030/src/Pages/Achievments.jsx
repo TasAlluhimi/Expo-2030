@@ -32,7 +32,7 @@ function Achievments() {
             <div className='text-4xl font-bold'>Saudi Arabia Achievments</div>
             
             <input
-                className='border rounded-lg mt-10'
+                className='border rounded-lg mt-10 w-80'
                 type='search'
                 name='Search'
                 placeholder='Search'

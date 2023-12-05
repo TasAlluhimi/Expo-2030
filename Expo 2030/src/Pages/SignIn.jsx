@@ -36,7 +36,9 @@ function SignIn() {
   return (
     <>
         {/* <div className='h-screen w-full'> */}
-            <div className='bg-no-repeat bg-cover h-screen flex flex-col justify-center items-center' style={{backgroundImage: `url(${r})`}}>
+            <div className='bg-no-repeat bg-cover h-screen 
+            flex flex-col justify-center items-center' 
+            style={{backgroundImage: `url(${r})`}}>
 
             <div>
 
