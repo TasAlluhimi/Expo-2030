@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import NavBar from '../components/NavBar'
-import riy from '../assets/mm.jpg';
+// import riy from '../assets/mm.jpg';
+import riy from '../assets/riyadh.jpg';
 import MyFooter from '../components/MyFooter';
 import information from '../components/Ahivments';
 import { Link } from 'react-router-dom';
@@ -22,7 +23,8 @@ function Achievments() {
 
   return (
     <>
-        <div className='h-[95vh] w-full bg-cover bg-center' style={{backgroundImage: `url(${riy})`, overflowX: 'hidden'}}>
+        <div className='h-screen w-full bg-cover' 
+        style={{backgroundImage: `url(${riy})`, overflowX: 'hidden'}}>
             <NavBar></NavBar>
         </div>
             
