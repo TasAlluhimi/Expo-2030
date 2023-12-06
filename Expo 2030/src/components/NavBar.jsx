@@ -43,7 +43,7 @@ function NavBar() {
 
   return (
     <nav className={`border-b ${isScrolled ? 'bg-white' : ''} border-gray-200 dark:bg-gray-900 fixed w-full border-none`}>
-      <div className="flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="flex items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={`${isScrolled ? "https://riyadhexpo2030.sa/wp-content/uploads/2022/11/Riyadh_Expo_2030-Logo-Colored.png" : "https://riyadhexpo2030.sa/wp-content/uploads/2022/11/Riyadh_Expo_2030-Logo-white.png"}`} className="h-20" alt="Logo" />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
