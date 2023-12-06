@@ -43,9 +43,9 @@ function AchievmentsDetails() {
                 rounded md:my-10 dark:bg-gray-700"/>
 
                 <div className='text-center mt-10 w-[70%]'>{result.info2}</div>
-                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 
+                <hr class="w-48 h-1 mx-auto my-4 mb-10 bg-gray-100 border-0 
                 rounded md:my-10 dark:bg-gray-700"/>
-
+{/* 
                 <div className='text-center mt-10 w-[70%]'>{result.info3}</div>
                 <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 
                 rounded md:my-10 dark:bg-gray-700"/>
@@ -54,7 +54,7 @@ function AchievmentsDetails() {
                 <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 
                 rounded md:my-10 dark:bg-gray-700"/>
 
-                <div className='text-center mt-10 mb-10 w-[70%]'>{result.info5}</div>
+                <div className='text-center mt-10 mb-10 w-[70%]'>{result.info5}</div> */}
             </div>
             </div>
         </div>
