@@ -29,7 +29,7 @@ function NavBar() {
   };
 
   const scroll = () => {
-    const scrolled = window.scrollY > 500;
+    const scrolled = window.scrollY > 50;
     setIsScrolled(scrolled);
   };
 
@@ -42,10 +42,15 @@ function NavBar() {
   }, []);
 
   return (
-    <nav className={`border-b ${isScrolled ? 'bg-white' : ''} border-gray-200 dark:bg-gray-900 fixed w-full border-none`}>
-      <div className="flex items-center justify-between mx-auto p-4">
+    <nav className={`border-b ${isScrolled ? 'bg-white' : ''} border-gray-200 
+    dark:bg-gray-900 fixed w-full border-none z-50`}>
+      <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={`${isScrolled ? "https://riyadhexpo2030.sa/wp-content/uploads/2022/11/Riyadh_Expo_2030-Logo-Colored.png" : "https://riyadhexpo2030.sa/wp-content/uploads/2022/11/Riyadh_Expo_2030-Logo-white.png"}`} className="h-20" alt="Logo" />
+
+          <img 
+          src={`${isScrolled ? "https://riyadhexpo2030.sa/wp-content/uploads/2022/11/Riyadh_Expo_2030-Logo-Colored.png" : "https://riyadhexpo2030.sa/wp-content/uploads/2022/11/Riyadh_Expo_2030-Logo-white.png"}`} 
+          className={`h-16 max-sm:h-10`}
+          alt="Logo" />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

@@ -49,7 +49,11 @@ function Achievments() {
           <p className='text-2xl'>No results found</p>
         ) : (
           filteredInformation.map((item) => (
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={item.id}>
+            <div className="max-w-sm bg-white border border-gray-200 
+            rounded-lg shadow dark:bg-gray-800 dark:border-gray-700
+            hover:scale-105" 
+            key={item.id}>
+
               <Link to={`/Achievments/${item.id}`}>
                 <div className="rounded-t-lg h-[40vh] bg-cover bg-center" style={{backgroundImage: `url(${item.image})`}} alt=""></div>
               </Link>

@@ -28,8 +28,9 @@ function AchievmentsDetails() {
             style={{backgroundImage: `url(${result.image})`}} alt="">
             
             <div className='h-full w-full flex items-center justify-center'>
-                    <div className='bg-[rgba(255,255,255,0.53)] text-7xl p-2 
-                    text-center rounded-xl w-[80%] font-bold'>{result.title}</div>
+                    <div className='bg-[rgba(203,164,144,0.52)] p-2 
+                    text-center rounded-xl w-[80%] font-bold max-sm:text-2xl
+                     md:text-5xl lg:text-7xl'>{result.title}</div>
                 </div>
             
             </div>
