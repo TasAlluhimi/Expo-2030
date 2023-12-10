@@ -45,7 +45,7 @@ function SignIn() {
                 {/* sign in  */}
 
                 <div className='bg-[rgba(255,255,255,0.46)] flex flex-col p-10 w-96 items-center justify-center rounded-lg'>
-                <p className='text-lg text-center'>Sign In Now</p>
+                <p className='text-lg font-bold text-center'>Sign In Now</p>
 
                 <input
                 className='border rounded-lg mt-5'
@@ -65,7 +65,7 @@ function SignIn() {
                 onChange={(event)=>{setPassword(event.target.value)}}
                 />
 
-                <p className='mt-5 text-center'>You don't have an account? <Link className='font-bold' to='/SignUp'>Sign Up</Link></p>
+                <p className='mt-5 font-sans text-center'>You don't have an account? <Link className='font-bold' to='/SignUp'>Sign Up</Link></p>
                 {validationError && (
                 <p className='text-red-500 text-center font-bold'>{validationError}</p>
                 )}

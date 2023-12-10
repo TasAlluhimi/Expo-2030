@@ -20,6 +20,22 @@ function Profile() {
   return (
     <>
 
+<div className="area">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+
 <div
     class="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
     <div class="rounded-t-lg h-32 overflow-hidden">
@@ -31,7 +47,7 @@ function Profile() {
     
     <div class="text-center mt-2">
         <h2 class="font-semibold">{userData.Name}</h2>
-        <p class="text-gray-500">{userData.Email}</p>
+        <p class="text-gray-500 font-sans">{userData.Email}</p>
     </div>
 
     <div class="p-4 border-t mx-8 mt-2"></div>
@@ -39,15 +55,15 @@ function Profile() {
     <div class="py-4 mt-2 text-gray-700 flex items-center justify-around">
         <li class="flex flex-col items-center justify-around">
             <div className='font-bold'>Sex:</div>
-            <div>{userData.gender}</div>
+            <div className='font-sans'>{userData.gender}</div>
         </li>
         <li class="flex flex-col items-center justify-between">
             <div className='font-bold'>marital Status:</div>
-            <div>{userData.maritalStatus}</div>
+            <div className='font-sans'>{userData.maritalStatus}</div>
         </li>
         <li class="flex flex-col items-center justify-around">
             <div className='font-bold'>Age Range:</div>
-            <div>{userData.ageRange}</div>
+            <div className='font-sans'>{userData.ageRange}</div>
         </li>
     </div>
 
@@ -56,11 +72,11 @@ function Profile() {
     <div class="py-4 mt-2 text-gray-700 flex items-center justify-around">
         <li class="flex flex-col items-center justify-around">
             <div className='font-bold'>Country:</div>
-            <div>{userData.country}</div>
+            <div className='font-sans'>{userData.country}</div>
         </li>
         <li class="flex flex-col items-center justify-between">
             <div className='font-bold'>City:</div>
-            <div>{userData.city}</div>
+            <div className='font-sans'>{userData.city}</div>
         </li>
     </div>
 

@@ -28,9 +28,9 @@ function AchievmentsDetails() {
             style={{backgroundImage: `url(${result.image})`}} alt="">
             
             <div className='h-full w-full flex items-center justify-center'>
-                    <div className='bg-[rgba(203,164,144,0.52)] p-2 
+                    <div className='bg-[rgba(237,237,237,0.52)] p-2 
                     text-center rounded-xl w-[80%] font-bold max-sm:text-2xl
-                     md:text-5xl lg:text-7xl'>{result.title}</div>
+                     md:text-5xl lg:text-6xl'>{result.title}</div>
                 </div>
             
             </div>
@@ -38,11 +38,11 @@ function AchievmentsDetails() {
                 <div className=''>
 
                 <div className='justify-center items-center flex flex-col'>
-                <div className='text-center mt-10 w-[70%]'>{result.info1}</div>
+                <div className='text-center mt-10 w-[70%] font-sans'>{result.info1}</div>
                 <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 
                 rounded md:my-10 dark:bg-gray-700"/>
 
-                <div className='text-center mt-10 w-[70%]'>{result.info2}</div>
+                <div className='text-center mt-10 w-[70%] font-sans'>{result.info2}</div>
                 <hr class="w-48 h-1 mx-auto my-4 mb-10 bg-gray-100 border-0 
                 rounded md:my-10 dark:bg-gray-700"/>
 {/* 

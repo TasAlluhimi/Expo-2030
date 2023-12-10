@@ -82,7 +82,7 @@ function SignUp() {
 
             <div className='flex flex-col justify-center items-center'>
             <div className='bg-[rgba(255,255,255,0.46)] rounded-lg flex flex-col p-10 w-96'>
-            <p className='text-lg text-center'>Sign Up Now</p>
+            <p className='text-lg font-bold text-center'>Sign Up Now</p>
 
             <input
             className='border rounded-lg mt-5'
@@ -179,7 +179,7 @@ function SignUp() {
         <option value='50+'>50+</option>
       </select>
 
-      <p className='mt-5 text-center'>You Already have an account? <Link className='font-bold' to='/SignIn'>Sign In</Link></p>
+      <p className='mt-5 font-sans text-center'>You Already have an account? <Link className='font-bold' to='/SignIn'>Sign In</Link></p>
 
 
       {validationError && (
