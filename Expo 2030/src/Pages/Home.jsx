@@ -20,6 +20,7 @@ const Home = () => {
           loop
           muted
           // controls
+          playsInline  // Add playsInline for iOS support
           className="h-full w-full object-cover"
           style={{ zIndex: -1, pointerEvents: 'none' }}
         >
