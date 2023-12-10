@@ -44,7 +44,7 @@ function Achievments() {
 
             </div>
 
-    <div className='flex flex-wrap gap-20 justify-center items-center w-full bg-center mt-10  mb-10'>
+    <div className='flex flex-wrap gap-20 xl:gap-40 justify-center items-center w-full bg-center mt-10  mb-10'>
         {filteredInformation.length === 0 ? (
           <p className='text-2xl'>No results found</p>
         ) : (

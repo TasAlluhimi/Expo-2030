@@ -35,11 +35,11 @@ function Profile() {
         </ul>
       </div>
 
-
+<div className='lg:h-[100vh] flex flex-col items-center justify-center'>
 <div
     class="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
     <div class="rounded-t-lg h-32 overflow-hidden">
-        <img class="object-cover object-top w-full" src={ex} alt='Mountain'/>
+        <img class="object-cover object-top w-full" src={ex} alt=''/>
     </div>
     <div class="mx-auto w-32 h-32 relative -mt-16 border-4 border-white rounded-full overflow-hidden">
         <img class="object-cover object-center h-32" src='https://cdn-icons-png.flaticon.com/128/149/149071.png' alt='user icon'/>
@@ -91,6 +91,7 @@ function Profile() {
             </div>
     </div>
 
+</div>
 </div>
     </>
   )

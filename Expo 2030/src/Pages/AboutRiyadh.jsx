@@ -21,21 +21,21 @@ function AboutRiyadh() {
         </ul>
       </div>
 
-<section class="mt-20 pt-10 md:pt-0 sm:pt-16 2xl:pt-16">
+<section class="h-[100vh] max-sm:h-full">
     
-    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    <div class=" h-full px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         
-        <div class="flex flex-col items-center justify-center">
+        <div class="flex h-full flex-col items-center justify-center">
 
             
             <div className="w-[80%]">
             <h1 class="text-4xl lg:text-5xl font-bold">A Magical Journey in the Heart of Saudi: Exploring Riyadh!</h1>
             <div class="w-20 h-2 bg-blue-600 my-4"></div>
 
-                <p class="text-lg mb-10 mt-10">Riyadh, the capital of Saudi Arabia, is a harmonious blend of modernity and tradition, taking you on a magical journey through time and space. With its vast landscapes, modern buildings seamlessly coexist with traditional markets, where the old meets the new in a unique fashion.</p>
+                <p class="text-lg mb-10 mt-10 font-sans">Riyadh, the capital of Saudi Arabia, is a harmonious blend of modernity and tradition, taking you on a magical journey through time and space. With its vast landscapes, modern buildings seamlessly coexist with traditional markets, where the old meets the new in a unique fashion.</p>
                 <hr class="w-48 h-1 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10 dark:bg-gray-300"/>
 
-                <p class="text-lg mb-10">Riyadh, by night, paints itself with lights, transforming the urban landscape into an artistic canvas. Enjoy a night tour, whether along the glittering glass facades of the Kingdom Tower or through the famous places. Riyadh embodies the beauty of diversity and offers a unique experience that blends heritage with modernity, making it an essential destination for every traveler seeking to explore a distinctive mix of allure and variety.</p>
+                <p class="text-lg mb-10 font-sans">Riyadh, by night, paints itself with lights, transforming the urban landscape into an artistic canvas. Enjoy a night tour, whether along the glittering glass facades of the Kingdom Tower or through the famous places. Riyadh embodies the beauty of diversity and offers a unique experience that blends heritage with modernity, making it an essential destination for every traveler seeking to explore a distinctive mix of allure and variety.</p>
                 {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10 dark:bg-gray-300"/> */}
 
                 <div className='flex items-center justify-center'>
